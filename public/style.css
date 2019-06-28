@@ -1,0 +1,39 @@
+body{
+	background: #9198e5;
+	background-repeat: no-repeat;}
+.my-app{
+	width: 80%;
+	margin:0 auto;
+	border:2px dashed blue;
+	display: flex;
+	justify-content: space-between;
+
+}
+.title{
+	width: 40%
+}
+input{
+	margin-right:10px;
+	margin-top:15px;
+	padding:5px 0px;
+}
+input[type='submit']{
+	padding:10px;
+	background: orange;
+	border:none;
+	border-radius:5px;
+	text-transform: uppercase;
+	color:white;
+}
+input[type='submit']:hover{
+-webkit-box-shadow: 7px 2px 45px -4px rgba(4,0,240,1);
+-moz-box-shadow: 7px 2px 45px -4px rgba(4,0,240,1);
+box-shadow: 7px 2px 45px -4px rgba(4,0,240,1);
+}
+.title img{
+	height:100%;
+	width:100%;
+}
+h2,p{
+	color:#4cf01a;
+}
